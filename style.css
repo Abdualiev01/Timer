@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.buttons{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+
+
+.resultBlock{
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: 250px;
+    border: 1px solid black;
+    color: blue;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
